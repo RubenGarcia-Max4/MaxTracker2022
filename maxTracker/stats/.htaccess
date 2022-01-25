@@ -1,0 +1,7 @@
+AuthName "max4gps.com statistics"
+AuthType Basic
+AuthUserFile /home/max4gps/.stats-htpasswd
+require valid-user
+<Files .stats-htpasswd>
+deny from all
+</Files>

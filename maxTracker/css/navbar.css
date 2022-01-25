@@ -1,0 +1,459 @@
+/*====================================
+	Header CSS
+======================================*/
+
+.header {
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    position: relative;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+
+/* Topbar */
+
+.topbar {
+    background: #00486B;
+    padding: 15px 0 58px;
+    position: relative;
+    border-bottom: 5px solid #A3C64D;
+}
+
+.topbar .address {
+    margin-top: 10px;
+}
+
+.topbar .address li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.topbar .address li:last-child {
+    margin-right: 0px;
+}
+
+.topbar .address li,
+.topbar .address li a {
+    color: #f3f6fa;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.topbar .address li:hover,
+.topbar .address li a:hover {
+    color: #fff;
+}
+
+.topbar .address li i {
+    margin: 0;
+    margin-right: 10px;
+}
+
+
+/*	Top Info */
+
+.topbar .top-info {
+    float: right;
+}
+
+.topbar .phone {
+    margin-right: 15px;
+    float: left;
+    margin-top: 8px;
+}
+
+.topbar .phone p {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.topbar .phone p i {
+    margin-right: 10px;
+    color: #4A89DC;
+    text-align: center;
+    position: relative;
+    top: 0px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 100%;
+    font-size: 16px;
+    background: #fff;
+}
+
+
+/* Button */
+
+.topbar .button {
+    float: left;
+    line-height: initial;
+}
+
+.topbar .button .elena-btn {
+    padding: 13px 22px;
+    font-size: 13px;
+    background: #fff;
+    color: #222538;
+    border: none;
+    border-radius: 50px;
+}
+
+.topbar .button .elena-btn:hover {
+    color: #fff;
+}
+
+.middle-header {
+    position: absolute;
+    width: 100%;
+}
+
+
+/* Logo */
+
+.header .logo {
+    padding-top: 6px;
+}
+
+.header .logo a {
+    color: #222538;
+    font-size: 30px;
+    font-weight: 700;
+    position: relative;
+}
+
+.header .logo a::before {
+    position: absolute;
+    left: 0;
+    top: 12px;
+    width: 10px;
+    height: 10px;
+    content: "";
+    border-radius: 100%;
+}
+
+
+/* Main Menu */
+
+.header .nav-area {
+    position: relative;
+}
+
+.header .menubar-inner {
+    background: #fbfbfb;
+    padding: 12px 30px;
+    position: relative;
+    -webkit-box-shadow: 0px 4px 4px #00000017;
+    -moz-box-shadow: 0px 4px 4px #00000017;
+    box-shadow: 0px 4px 4px #00000017;
+    top: -51.5px;
+    border-radius: 5px;
+    margin-bottom: -54px;
+    transition: all 0.3s ease;
+}
+
+.header .menu-inner {
+    position: relative;
+}
+
+.header .mainmenu {
+    float: right;
+    padding-right: 35px;
+}
+
+.header .nav {
+    float: right;
+    margin-right: 0;
+    display: initial;
+}
+
+.header .nav li {
+    position: relative;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.header .nav li:last-child {
+    margin: 0;
+}
+
+.header .nav li a {
+    color: #222538;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 16px 14px;
+    position: relative;
+    display: block;
+    border-radius: 3px;
+}
+
+.header .nav li a i {
+    margin-left: 5px;
+}
+
+.header .nav li.active a,
+.header .nav li:hover a {
+    color: #fff;
+    background: #4A89DC;
+}
+
+.header .nav li a::before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    height: 4px;
+    background: #22253830;
+    width: 0%;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+    transition: all 0.8s ease;
+}
+
+.header .nav li.active a:before,
+.header .nav li:hover a:before {
+    width: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+
+.header .nav .drop-down {
+    position: absolute;
+    right: 0;
+    width: 200px;
+    background: #FFF;
+    top: 56px;
+    opacity: 1;
+    visibility: visible;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    box-shadow: 0px 0px 7px #0000002b;
+    padding: 10px;
+    border-top: 3px solid #4A89DC;
+    z-index: 3000;
+    -webkit-transform: translateX(-50px);
+    -moz-transform: translateX(-50px);
+    transform: translateX(-50px);
+}
+
+.header .nav li:hover .drop-down {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+
+.header .nav .drop-down li {
+    margin: 0;
+    border-bottom: 1px solid #ebebeb;
+    display: block;
+}
+
+.header .nav .drop-down li:last-child {
+    border: none;
+}
+
+.header .nav .drop-down li a {
+    color: #666;
+    padding: 8px 15px;
+    text-transform: capitalize;
+    font-weight: 500;
+    border-radius: 0px;
+    background: transparent !important;
+}
+
+.header .nav .drop-down li a:hover {
+    color: #4A89DC;
+}
+
+.header .nav .drop-down li a:before {
+    display: none;
+}
+
+
+/* Search Form */
+
+.header .search-area {
+    position: absolute;
+    right: 0;
+    top: 13px;
+}
+
+.header .search-area a {
+    width: 30px;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 100%;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    background: #f3f6fa;
+    color: #222538;
+    font-size: 13px;
+}
+
+.header .search-area a:hover {
+    background: #4A89DC;
+    color: #fff;
+}
+
+.header .search-area.active a i:after {
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.header .search-area.active a i:before {
+    content: "\f00d";
+}
+
+.header .search-form {
+    width: 300px;
+    right: 0;
+    z-index: 4;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    position: absolute;
+    right: 0;
+    opacity: 0;
+    visibility: hidden;
+    top: 45px;
+    background: #fff;
+    transform: translateY(-30px);
+    padding: 10px;
+    -webkit-box-shadow: 0px 0px 5px #00000030;
+    -moz-box-shadow: 0px 0px 5px #00000030;
+    box-shadow: 0px 0px 5px #00000030;
+}
+
+.search-form .form {
+    position: relative;
+}
+
+.header .search-form input {
+    width: 100%;
+    border: none;
+    height: 50px;
+    padding: 0px 50px 0 15px;
+    text-transform: initial;
+    background: #f3f6fa;
+}
+
+.header .search-form button {
+    position: absolute;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background: #4A89DC;
+    border: none;
+    color: #fff;
+}
+
+.header .search-form button:hover {
+    background: #222538;
+    color: #fff;
+}
+
+.search-form .form {
+    position: relative;
+}
+
+.header .search-form.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+
+
+/* Header Style 2 */
+
+.header.style2 .middle-header {
+    background: transparent;
+    padding: 20px 0;
+    border-bottom: 1px solid #ffffff26;
+}
+
+.header.style2 .nav li {
+    margin-right: 10px;
+}
+
+.header.style2 .nav li a {
+    color: #fff;
+    padding: 16px 10px;
+}
+
+.header.style2 .nav li a::before {
+    background: #f0f2f54f;
+}
+
+.header.style2 .nav .drop-down li {
+    margin: 0;
+}
+
+.header.style2 .nav .drop-down li a {
+    color: #666;
+    padding: 8px 15px;
+}
+
+.header.style2 .nav .drop-down li:hover a {
+    color: #4A89DC;
+}
+
+.header.style2.sticky .nav li a {
+    color: #fff;
+}
+
+.header.style2.sticky .middle-header {
+    padding: 10px 0;
+    background: #222538;
+}
+
+.header.style2.sticky .nav .drop-down li a {
+    color: #666;
+}
+
+.header.style2.sticky .nav .drop-down li:hover a {
+    color: #4A89DC;
+}
+
+
+/* Heder Sticky */
+
+.header .middle-header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #fff;
+    box-shadow: 0px 0px 10px #00000070;
+    z-index: 3333;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.header .menubar-inner {
+    top: 0;
+    margin: 0;
+    box-shadow: none;
+    padding: 10px 0;
+}
+
+
+/*====================================
+	End Header CSS
+======================================*/

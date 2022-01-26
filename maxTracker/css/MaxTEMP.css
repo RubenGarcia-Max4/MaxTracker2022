@@ -458,6 +458,7 @@
 	End Header CSS
 ======================================*/
 
+<<<<<<< HEAD:maxTracker/css/MaxTEMP.css
 #Presentation-Cover .container-icons .icon {
     background-color: rgb(242, 246, 249);
     border-radius: 100%;
@@ -542,3 +543,267 @@
 .contactbtn:hover, .demobtn:hover{
     background: rgba(255, 255, 255, .5) !important;
 }
+=======
+
+/*====================================
+	Footer CSS
+======================================*/
+
+.footer {
+    background: #fff;
+    position: relative;
+    background-repeat: no-repeat;
+    /*background-image: url('images/footer-map.png');*/
+    background-size: cover;
+}
+
+.footer .single-widget h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.footer .single-widget h2::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 2px;
+    background: #4A89DC;
+}
+
+.footer .footer-top {
+    padding: 90px 0;
+    background-image: url('../images/map.png');
+}
+
+.footer .logo {
+    margin-bottom: 20px;
+}
+
+.footer-about .logo a {
+    font-size: 30px;
+    color: #333;
+    font-weight: 700;
+}
+
+.single-widget.lists ul li {
+    width: 100%;
+    float: left;
+}
+
+.single-widget ul li {
+    line-height: 36px;
+}
+
+.single-widget ul li,
+.single-widget ul li a {
+    color: #222538;
+    font-weight: 600;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.single-widget ul li:hover,
+.single-widget ul li a:hover {
+    color: #4A89DC;
+}
+
+.single-widget ul li i {
+    margin-left: ;
+    margin-right: 10px;
+}
+
+.footer .social {
+    text-align: center;
+    float: left;
+}
+
+.footer .social li {
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.footer .social li a {
+    display: block;
+    line-height: 28px;
+    font-size: 15px;
+    color: #fff;
+    width: 28px;
+    height: 28px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 100%;
+    font-size: 15px;
+}
+
+.footer .social li:hover a,
+.footer .social li.active a {
+    background: #4A89DC;
+}
+
+.footer .arrow a {
+    font-size: 30px;
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    color: #fff;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 100%;
+    margin-left: -21px;
+    box-shadow: 0px 0px 4px #fff;
+    display: block;
+    padding: 0;
+}
+
+.footer .arrow a:hover {
+    background: #333;
+}
+
+.footer-about a.elena-btn {
+    margin-top: 15px;
+    padding: 12px 30px;
+}
+
+.footer-about a.elena-btn:hover {
+    color: #fff;
+}
+
+.footer-about .list {
+    margin-top: 10px;
+}
+
+.footer-about ul li i {
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+
+/* Subscribe */
+
+.footer .subscribe form {
+    position: relative;
+    margin-top: 20px;
+}
+
+.footer .subscribe form input {
+    height: 50px;
+    padding: 0 20px;
+    border: none;
+    width: 100%;
+    background: #f3f6fa;
+    font-weight: 600;
+}
+
+.footer .subscribe h2 {
+    margin-bottom: 15px;
+    border: none;
+}
+
+.footer .subscribe form button {
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.footer .subscribe form button:hover {
+    color: #fff;
+    background: #2A2D2F;
+}
+
+.footer .subscribe form button i {
+    margin-left: 10px;
+}
+
+.office img {
+    width: 100%;
+}
+
+.office {
+    position: relative;
+    display: inline-block;
+}
+
+.office span {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #333333a1;
+    text-align: center;
+    color: #fff;
+}
+
+.footer .copyright {
+    padding: 15px 0;
+    background: #00486B;
+}
+
+.footer .copyright .text {
+    color: #eee;
+    margin: 0;
+    font-size: 15px;
+}
+
+.footer .copyright .text a {
+    color: #fff;
+}
+
+.footer .copyright .text a:hover {
+    color: #4A89DC;
+}
+
+.footer .copyright span {
+    margin: 0px 5px;
+}
+
+.footer .copyright a {
+    color: #4A89DC;
+}
+
+.poweredBy p {
+    margin-top: 290px;
+}
+
+.poweredBy .fuerte {
+    font-weight: bolder;
+    color: black;
+    opacity: 0.8;
+}
+
+
+/*====================================
+	End Footer CSS
+======================================*/
+
+
+/*Ajustes*/
+
+.top-info .phone a {
+    color: white;
+}
+
+@media (min-width: 992px) {
+    .col-lg-2-grande {
+        flex: 0 0 30%;
+        max-width: 30%
+    }
+    .col-lg-10-grande {
+        flex: 0 0 70%;
+        max-width: 70%
+    }
+}
+
+.list i {
+    color: #a22529;
+}
+
+@media (min-width: 768px) {}
+>>>>>>> 2f422a5321f2bacdc115dca561e0d74442fdc741:maxTracker/css/navbar.css

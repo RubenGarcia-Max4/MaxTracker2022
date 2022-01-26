@@ -458,7 +458,6 @@
 	End Header CSS
 ======================================*/
 
-<<<<<<< HEAD:maxTracker/css/MaxTEMP.css
 #Presentation-Cover .container-icons .icon {
     background-color: rgb(242, 246, 249);
     border-radius: 100%;
@@ -543,7 +542,6 @@
 .contactbtn:hover, .demobtn:hover{
     background: rgba(255, 255, 255, .5) !important;
 }
-=======
 
 /*====================================
 	Footer CSS
@@ -806,4 +804,3 @@
 }
 
 @media (min-width: 768px) {}
->>>>>>> 2f422a5321f2bacdc115dca561e0d74442fdc741:maxTracker/css/navbar.css

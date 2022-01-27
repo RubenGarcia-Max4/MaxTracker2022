@@ -548,6 +548,17 @@
     background: rgba(255, 255, 255, .5) !important;
 }
 
+.comp-cover{
+    width: auto;
+    height: auto;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.img-container{
+    padding-top: 10%;
+}
+
 @media (max-width: 950px) {
     #Presentation-Cover .container-icons .icon {
         width: 90px;
@@ -557,7 +568,7 @@
         margin-top: 20%;
     }
     #Presentation-Cover{
-        height: 900px;
+        height: 100%;
     }
 
     .container-icons{

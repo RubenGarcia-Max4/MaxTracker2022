@@ -577,13 +577,13 @@
         padding-left: 10%;
         padding-right: 10%
     }
-    .btn-container1{
-        margin-left: 7%;
+    .main-row{
+        margin: 0 !important;
+        padding: 0 !important;
     }
-
-    .btn-container2{
-        margin-left: 7%;
-        margin-top: 2%;
+    .buttons-cover{
+        padding-left: 0;
+        text-align: center;
     }
     .demobtn{
         width: 220px;
@@ -592,6 +592,9 @@
     .contactbtn{
         width: 220px;
         height: 50px
+    }
+    .btn-container2{
+        margin-top: 2%;
     }
 }
 

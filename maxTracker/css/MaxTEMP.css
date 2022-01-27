@@ -458,14 +458,19 @@
 	End Header CSS
 ======================================*/
 
+/*=========================================
+    Presentation Cover Css
+===========================================
+*/
+
 #Presentation-Cover .container-icons .icon {
     background-color: rgb(242, 246, 249);
     border-radius: 100%;
     width: 110px;
     height: 110px;
     margin-left: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 #Presentation-Cover{
@@ -476,14 +481,14 @@
 }
 
 .container-icons{
-    margin-top: 100px;
+    margin-top: 15%;
 }
 
 .Title-icons{
-    margin-top: 37px;
+    margin-top: 8%;
     font-family: 'Oswald', sans-serif !important;
     color: #fff;
-    font-size: 50px;
+    font-size: 300%;
 }
 
 .Sub-Co{
@@ -491,13 +496,13 @@
     font-weight: 300;
     color: #fff;
     padding-left: 15%;
-    font-size: 35px;
+    font-size: 220%;
 }
 
 #SubLine{
     width: 70%;
-    height: 4px;
-    margin-right: 100px !important;
+    height: 2%;
+    margin-right: 15% !important;
     color: #000;
     float: right;
 }
@@ -542,6 +547,58 @@
 .contactbtn:hover, .demobtn:hover{
     background: rgba(255, 255, 255, .5) !important;
 }
+
+@media (max-width: 950px) {
+    #Presentation-Cover .container-icons .icon {
+        width: 90px;
+        height: 90px;
+        padding-left: 5%;
+        margin-left: 20%;
+        margin-top: 20%;
+    }
+    #Presentation-Cover{
+        height: 900px;
+    }
+
+    .container-icons{
+        margin-top: 30%;
+    }
+
+    .Title-icons{
+        font-size: 250% !important;
+    }
+    .Sub-Co{
+        padding-left: 10%;
+    }
+    #SubLine{
+        margin-right: 20% !important;
+    }
+    .paragraph-cover p{
+        padding-left: 10%;
+        padding-right: 10%
+    }
+    .btn-container1{
+        margin-left: 7%;
+    }
+
+    .btn-container2{
+        margin-left: 7%;
+        margin-top: 2%;
+    }
+    .demobtn{
+        width: 220px;
+        height: 50px
+    }
+    .contactbtn{
+        width: 220px;
+        height: 50px
+    }
+}
+
+/*=========================================
+    End Presentation Cover Css
+===========================================
+*/
 
 /*====================================
 	Footer CSS

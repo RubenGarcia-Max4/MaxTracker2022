@@ -468,10 +468,9 @@
     border-radius: 100%;
     width: 90px;
     height: 90px;
-    margin-left: auto;
+    margin-left: 50%;
     margin-top: 10%;
     margin-bottom: 2%;
-    padding-left: 6%;
 }
 
 #Presentation-Cover{
@@ -489,21 +488,21 @@
     margin-top: 12%;
     font-family: 'Oswald', sans-serif !important;
     color: #fff;
-    font-size: 300%;
+    font-size: 320%;
 }
 
 .Sub-Co{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: #fff;
-    padding-left: 15%;
+    padding-left: 12%;
     font-size: 220%;
 }
 
 #SubLine{
     width: 70%;
     height: 2%;
-    margin-right: 15% !important;
+    margin-right: 18% !important;
     color: #004267;
     float: right;
     opacity: 1 !important;
@@ -516,7 +515,7 @@
 }
 
 .paragraph-cover h3{
-    padding-left: 6%;
+    padding-left: 2%;
     text-align: justify;
     font-family: 'Roboto', sans-serif;
     color: #fff;
@@ -525,7 +524,7 @@
 }
 
 .paragraph-cover p{
-    padding-left: 6%;
+    padding-left: 2%;
     text-align: justify;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -598,6 +597,7 @@
 
     .Title-icons{
         font-size: 250% !important;
+        margin-left: 10%;
     }
     .Sub-Co{
         padding-left: 10%;

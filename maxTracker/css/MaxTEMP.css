@@ -466,10 +466,10 @@
 #Presentation-Cover .container-icons .icon {
     background-color: #fff;
     border-radius: 100%;
-    width: 110px;
-    height: 110px;
+    width: 90px;
+    height: 90px;
     margin-left: auto;
-    margin-top: 2%;
+    margin-top: 10%;
     margin-bottom: 2%;
     padding-left: 6%;
 }
@@ -486,7 +486,7 @@
 }
 
 .Title-icons{
-    margin-top: 8%;
+    margin-top: 12%;
     font-family: 'Oswald', sans-serif !important;
     color: #fff;
     font-size: 300%;
@@ -511,12 +511,12 @@
 
 .paragraph-cover{
     background-color: #004267;
-    padding: 3%;
+    padding: 2% 10% 2%;
     border-radius: 0px 35px 35px 0px;   
 }
 
 .paragraph-cover h3{
-    padding-left: 12%;
+    padding-left: 6%;
     text-align: justify;
     font-family: 'Roboto', sans-serif;
     color: #fff;
@@ -525,7 +525,7 @@
 }
 
 .paragraph-cover p{
-    padding-left: 12%;
+    padding-left: 6%;
     text-align: justify;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -606,7 +606,7 @@
         margin-right: 20% !important;
     }
     .paragraph-cover p{
-        padding-left: 10%;
+        padding-left: 5%;
         padding-right: 10%
     }
     .main-row{
@@ -638,6 +638,9 @@
     
     .img-container{
         padding-top: 0;
+    }
+    .paragraph-cover h3{
+        text-align: left;
     }
 }
 

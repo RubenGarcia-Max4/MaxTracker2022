@@ -560,7 +560,7 @@
     padding-top: 10%;
 }
 
-@media (max-width: 540px) {
+@media (min-width: 360px) and (max-width: 540px) {
     #Presentation-Cover .container-icons .icon {
         width: 90px;
         height: 90px;
@@ -598,12 +598,12 @@
         text-align: center;
     }
     .demobtn{
-        width: 50%;
+        width: 50% !important;
         height: 50px;
         float: none;
     }
     .contactbtn{
-        width: 50%;
+        width: 50% !important;
         height: 50px;
     }
     .btn-container2{
@@ -621,67 +621,10 @@
     }
 }
 
-@media (min-width: 768px) {
-    #Presentation-Cover .container-icons .icon {
-        width: 90px;
-        height: 90px;
-        padding-left: 5%;
-        margin-left: 20%;
-        margin-top: 20%;
-    }
-    #Presentation-Cover{
-        height: 100%;
-    }
-
+@media (min-width: 768px) and (max-width: 820px) {
     .container-icons{
         margin-top: 30%;
     }
-
-    .Title-icons{
-        font-size: 250% !important;
-    }
-    .Sub-Co{
-        padding-left: 10%;
-    }
-    #SubLine{
-        margin-right: 20% !important;
-    }
-    .paragraph-cover p{
-        padding-left: 10%;
-        padding-right: 10%
-    }
-    .main-row{
-        margin: 0 !important;
-        padding: 0 !important;
-    }
-    .buttons-cover{
-        padding-left: 0;
-        text-align: center;
-    }
-    .demobtn{
-        width: 90%;
-        height: 50px;
-        float: none;
-    }
-    .contactbtn{
-        width: 90%;
-        height: 50px;
-    }
-    .comp-cover{
-        width: auto;
-        height: auto;
-        max-width: 100%;
-        max-height: 100%;
-    }
-    
-    .img-container{
-        display: flex;
-        justify-content: center;
-        align-items: center; 
-    }
-}
-
-@media (min-width: 1024px) {
     .Title-icons{
         font-size: 300% !important;
     }
@@ -692,22 +635,40 @@
         margin-left: 30%;
         margin-top: 25%;
     }
-
     .img-container{
         display: flex;
         justify-content: center;
         align-items: center; 
     }
-
+    .btn-container1{
+        text-align: end;
+    }
+    .demobtn{
+        width: 80% !important;
+        height: 50px;
+        float: none;
+    }
+    .contactbtn{
+        width: 80% !important;
+        height: 50px;
+    }
     .comp-cover {
         width: auto;
         height: auto;
         max-width: 100%;
         max-height: 100%;
     }
+    .Sub-Co {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        color: #fff;
+        padding-left: 15%;
+        font-size: 175%;
+    }
 }
 
-@media (min-width: 1280px) {
+
+@media (min-width: 912px) and (max-width: 1280px) {
     .Title-icons{
         font-size: 400% !important;
     }
@@ -733,7 +694,6 @@
     }
 
 }
-
 /*=========================================
     End Presentation Cover Css
 ===========================================

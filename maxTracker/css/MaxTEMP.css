@@ -578,9 +578,13 @@
     background: rgba(255, 255, 255, .5) !important;
 }
 
+.comp-cover{
+    margin-bottom: 5%;
+}
+
 .img-container{
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     float: left;
 }
 /*Ends main contain cover*/

@@ -462,7 +462,7 @@
     Presentation Cover Css
 ===========================================*/
 
-/*Css for the presetatio cover*/
+/*Css for the presetation cover*/
 
 .container-icon{
     padding-left: 10%;
@@ -475,14 +475,13 @@
     height: 100%;
 }
 /*Starts CSS for the icon and the title of the cover*/
+.temperature-icon{
+    width: 90%;
+}
+
 .img-icon, .title-icon{
     padding-top: 120px;
     width: auto !important;
-}
-
-#Presentation-Cover .container-icon .icon {
-    background-color: #fff;
-    border-radius: 100%;
 }
 
 .cover-img{
@@ -495,7 +494,7 @@
     display: flex;
     align-items: flex-end;
     float: left;
-    padding-top: 160px;
+    padding-top: 150px;
 }
 
 .Title-icons{
@@ -513,7 +512,7 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: #fff;
-    font-size: 220%;
+    font-size: 180%;
 }
 
 #SubLine{
@@ -534,14 +533,14 @@
     text-align: start;
     font-family: 'Roboto', sans-serif;
     color: #fff;
-    font-size: 150%;
+    font-size: 140%;
     font-weight: bolder;
 }
 
 .paragraph-cover p{
     text-align: justify;
     font-family: 'Roboto', sans-serif;
-    font-size: 100%;
+    font-size: 95%;
     font-weight: 300;
     color: #fff;
 }
@@ -597,6 +596,7 @@
     }
     .temperature-icon{
         max-width: 120% !important;
+        width: 120%;
     }
     .img-icon{
         display: flex;
@@ -640,6 +640,9 @@
 @media (min-width: 768px) and (max-width: 820px) {
     .btn-container2, .btn-container1{
         text-align: center;
+    }
+    .temperature-icon{
+        width: 120%;
     }
     .buttons-cover{
         padding-left: 0;

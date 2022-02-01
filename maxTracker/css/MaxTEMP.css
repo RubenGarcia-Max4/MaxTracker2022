@@ -495,6 +495,7 @@
     display: flex;
     align-items: flex-end;
     float: left;
+    padding-top: 160px;
 }
 
 .Title-icons{
@@ -621,6 +622,17 @@
     
     .title-icon{
         width: 66.66666667% !important;
+        padding-top: 120px;
+    }
+    .formReverse {
+        flex-wrap: wrap-reverse !important;
+    }
+    .demo1 {
+        padding-left: 0 !important;
+    }
+    .demo2 {
+        padding-left: 0 !important;
+        text-align: left !important;
     }
 }
 /*Ends Responsive model for small devices*/
@@ -645,6 +657,14 @@
     
     .title-icon{
         width: 66.66666667% !important;
+        padding-top: 120px;
+    }
+    .demo1 {
+        padding-left: 0 !important;
+    }
+    .demo2 {
+        padding-left: 0 !important;
+        text-align: left !important;
     }
 }
 
@@ -655,6 +675,7 @@
     
     .title-icon{
         width: 66.66666667% !important;
+        padding-top: 120px;
     }
 }
 /*Ends Responsive model for medium devices*/
@@ -663,6 +684,60 @@
     End Presentation Cover Css
 ===========================================
 */
+
+/* FORM */
+
+#contactoCorreo input {
+    background: white !important;
+}
+
+#contactoCorreo textarea {
+    background: white !important;
+}
+
+.demo1 {
+    padding-left: 10%;
+    font-size: 45px;
+    text-align: justify;
+    line-height: 115%;
+    font-weight: 600;
+    letter-spacing: -4px;
+}
+
+.demo1 strong {
+    color: rgb(75, 132, 172);
+    font-weight: 700;
+}
+
+.demo2 {
+    padding-left: 10%;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 120%;
+}
+
+.cotizaYa {
+    background: #D68441 !important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    color: white !important;
+}
+
+.buttonr {
+    text-align: left;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#envioCorreo label {
+    font-size: 12px;
+}
+
+.form-validation{
+    position: unset !important;
+}
+
+/* END FORM */
 
 /*====================================
 	Footer CSS

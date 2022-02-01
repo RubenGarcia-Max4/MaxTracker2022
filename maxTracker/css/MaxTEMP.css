@@ -477,6 +477,7 @@
 /*Starts CSS for the icon and the title of the cover*/
 .img-icon, .title-icon{
     padding-top: 120px;
+    width: auto !important;
 }
 
 #Presentation-Cover .container-icon .icon {
@@ -614,6 +615,13 @@
         max-width: 90%;
         padding-left: 10%;
     }
+    .img-icon {
+        width: 25% !important;
+    } 
+    
+    .title-icon{
+        width: 66.66666667% !important;
+    }
 }
 /*Ends Responsive model for small devices*/
 /*Starts Responsive model for medium devices*/
@@ -630,6 +638,23 @@
     .demobtn, .contactbtn{
         width: 100%;
         margin-top: 3%; 
+    }
+    .img-icon {
+        width: 25% !important;
+    } 
+    
+    .title-icon{
+        width: 66.66666667% !important;
+    }
+}
+
+@media (min-width: 821px) and (max-width: 1280px){
+    .img-icon {
+        width: 25% !important;
+    } 
+    
+    .title-icon{
+        width: 66.66666667% !important;
     }
 }
 /*Ends Responsive model for medium devices*/

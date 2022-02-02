@@ -462,7 +462,7 @@
     Presentation Cover Css
 ===========================================*/
 
-/*Css for the presetatio cover*/
+/*Css for the presetation cover*/
 
 .container-icon{
     padding-left: 10%;
@@ -475,13 +475,13 @@
     height: 100%;
 }
 /*Starts CSS for the icon and the title of the cover*/
-.img-icon, .title-icon{
-    padding-top: 120px;
+.temperature-icon{
+    width: 90%;
 }
 
-#Presentation-Cover .container-icon .icon {
-    background-color: #fff;
-    border-radius: 100%;
+.img-icon, .title-icon{
+    padding-top: 120px;
+    width: auto !important;
 }
 
 .cover-img{
@@ -494,6 +494,7 @@
     display: flex;
     align-items: flex-end;
     float: left;
+    padding-top: 150px;
 }
 
 .Title-icons{
@@ -511,7 +512,7 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: #fff;
-    font-size: 220%;
+    font-size: 180%;
 }
 
 #SubLine{
@@ -532,14 +533,14 @@
     text-align: start;
     font-family: 'Roboto', sans-serif;
     color: #fff;
-    font-size: 150%;
+    font-size: 140%;
     font-weight: bolder;
 }
 
 .paragraph-cover p{
     text-align: justify;
     font-family: 'Roboto', sans-serif;
-    font-size: 100%;
+    font-size: 95%;
     font-weight: 300;
     color: #fff;
 }
@@ -595,6 +596,7 @@
     }
     .temperature-icon{
         max-width: 120% !important;
+        width: 120%;
     }
     .img-icon{
         display: flex;
@@ -614,12 +616,33 @@
         max-width: 90%;
         padding-left: 10%;
     }
+    .img-icon {
+        width: 25% !important;
+    } 
+    
+    .title-icon{
+        width: 66.66666667% !important;
+        padding-top: 120px;
+    }
+    .formReverse {
+        flex-wrap: wrap-reverse !important;
+    }
+    .demo1 {
+        padding-left: 0 !important;
+    }
+    .demo2 {
+        padding-left: 0 !important;
+        text-align: left !important;
+    }
 }
 /*Ends Responsive model for small devices*/
 /*Starts Responsive model for medium devices*/
 @media (min-width: 768px) and (max-width: 820px) {
     .btn-container2, .btn-container1{
         text-align: center;
+    }
+    .temperature-icon{
+        width: 120%;
     }
     .buttons-cover{
         padding-left: 0;
@@ -631,6 +654,32 @@
         width: 100%;
         margin-top: 3%; 
     }
+    .img-icon {
+        width: 25% !important;
+    } 
+    
+    .title-icon{
+        width: 66.66666667% !important;
+        padding-top: 120px;
+    }
+    .demo1 {
+        padding-left: 0 !important;
+    }
+    .demo2 {
+        padding-left: 0 !important;
+        text-align: left !important;
+    }
+}
+
+@media (min-width: 821px) and (max-width: 1280px){
+    .img-icon {
+        width: 25% !important;
+    } 
+    
+    .title-icon{
+        width: 66.66666667% !important;
+        padding-top: 120px;
+    }
 }
 /*Ends Responsive model for medium devices*/
 /*Ends Css for the presetation cover*/
@@ -638,6 +687,60 @@
     End Presentation Cover Css
 ===========================================
 */
+
+/* FORM */
+
+#contactoCorreo input {
+    background: white !important;
+}
+
+#contactoCorreo textarea {
+    background: white !important;
+}
+
+.demo1 {
+    padding-left: 10%;
+    font-size: 45px;
+    text-align: justify;
+    line-height: 115%;
+    font-weight: 600;
+    letter-spacing: -4px;
+}
+
+.demo1 strong {
+    color: rgb(75, 132, 172);
+    font-weight: 700;
+}
+
+.demo2 {
+    padding-left: 10%;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 120%;
+}
+
+.cotizaYa {
+    background: #D68441 !important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    color: white !important;
+}
+
+.buttonr {
+    text-align: left;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#envioCorreo label {
+    font-size: 12px;
+}
+
+.form-validation{
+    position: unset !important;
+}
+
+/* END FORM */
 
 /*====================================
 	Footer CSS

@@ -10,9 +10,6 @@
 	
     list-style: inside;
 }
-{
-	display: list-item;
-}
 
 .sub-menu{
     position: absolute;

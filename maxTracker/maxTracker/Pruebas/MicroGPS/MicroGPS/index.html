@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+
+<head>
+    <!-- Title Tag -->
+    <title>MicroGPS | Rastreo Satelital y Telemetría</title>
+
+    <!-- Meta tag -->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Rastreo Satelital Portátil">
+    <meta name='copyright' content='elena'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="rastreo satelital, rastreo gps, gps tracker, satelital gps">
+    <meta name="robots" content="index, follow">
+
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="MicroGPS | Rastreo Satelital y Telemetría">
+    <meta itemprop="description" content="Rastreo Satelital Portátil">
+    <meta itemprop="image" content="images/id_tracker.jpg">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://max4gps.com">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="MicroGPS | Rastreo Satelital y Telemetría">
+    <meta property="og:description" content="Rastreo Satelital Portátil.">
+    <meta property="og:image" content="images/id_tracker.jpg">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="MicroGPS | Rastreo Satelital y Telemetría">
+    <meta name="twitter:description" content="Rastreo Satelital Portátil.">
+    <meta name="twitter:image" content="images/id_tracker.jpg">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/maxTrackerFavicon.png" type="image/x-icon">
+
+    <!-- Bootstrap Css -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Magnific Popup CSS 
+        <link rel="stylesheet" href="css/magnific-popup.min.css">-->
+    <!-- Fancy Box CSS 
+        <link rel="stylesheet" href="css/jquery.fancybox.min.css">-->
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- Cube Portfolio CSS 
+        <link rel="stylesheet" href="css/cubeportfolio.min.css">-->
+    <!-- Nice Select CSS -->
+    <link rel="stylesheet" href="css/niceselect.css">
+    <!-- Slick Nav CSS -->
+    <link rel="stylesheet" href="css/slicknav.min.css">
+    <!-- Animate Text -->
+    <link rel="stylesheet" href="css/animate-text.css">
+    <!--Stilo CSS-->
+    <link rel="stylesheet" href="./css/stilo.css">
+
+    <!--Oswald extra light import-->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <!--Oswald font import-->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <!--Oswald bold font import-->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <!--Roboto font import-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!--Open Sans font import-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+
+    <!--Carrousel imports-->
+    <link href='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css' rel='stylesheet'>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css' rel='stylesheet'>
+    <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
+    <script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js'></script>
+
+    <!-- Elena StyleShet -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Elena StyleShet -->
+    <link rel="stylesheet" href="css/skins/skin-1.css">
+
+    <script src="https://kit.fontawesome.com/d614bff8b4.js" crossorigin="anonymous"></script>
+
+    <!--[if lt IE 9]>-->
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <!--[endif]-->
+
+    <!--Liz-->
+    <link rel="stylesheet" href="css/nicepage.css" media="screen">
+    <link rel="stylesheet" href="css/Inicio.css" media="screen">
+    <link rel="stylesheet" href="css/inhouse.css">
+
+    <!-- <script class="u-script" type="text/javascript" src="js/jquery.js" defer=""></script> -->
+    <!-- <script class="u-script" type="text/javascript" src="js/nicepage.js" defer=""></script> -->
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700">
+
+
+    <!-- Google Tag Manager  -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TFLWSMH');
+    </script>
+    <!-- End Google Tag Manager-->
+</head>
+
+<body data-home-page="Inicio.html" data-home-page-title="Inicio" class="u-body">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TFLWSMH" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Preloader
+		 <div class="preloader">
+			<div class="sk-cube-grid">
+				<div class="sk-cube sk-cube1"></div>
+				<div class="sk-cube sk-cube2"></div>
+				<div class="sk-cube sk-cube3"></div>
+				<div class="sk-cube sk-cube4"></div>
+				<div class="sk-cube sk-cube5"></div>
+				<div class="sk-cube sk-cube6"></div>
+				<div class="sk-cube sk-cube7"></div>
+				<div class="sk-cube sk-cube8"></div>
+				<div class="sk-cube sk-cube9"></div>
+			</div>
+		</div> -->
+    <!-- End Preloader 
+	<div class="page">-->
+    <!-- Start Header -->
+    <header class="header">
+        <!-- Topbar -->
+        <div class="topbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 col-12">
+                        <!-- Address -->
+                        <ul class="address">
+                            <li><a href="mailto:marketing@max4technologies.com"><i
+                                        class="fa fa-paper-plane"></i>contacto@max4technologies.com</a></li>
+                            <li><i class="fa fa-map-marker"></i>Brasilia 107, Colonia La Fuente, México</li>
+                        </ul>
+                        <!--/ End Address -->
+                    </div>
+                    <div class="col-lg-5 col-12">
+                        <!-- Top Info -->
+                        <div class="top-info">
+                            <div class="phone">
+                                <p><a href="tel:+524499991858"><i class="fa fa-phone"></i>Comunícate: (449)
+                                        111.23.75</a></p>
+
+                            </div>
+                            <div class="button">
+                                <a href="#contactoCorreo" class="btn btn-naranja">¡Cotiza ahora!</a>
+                            </div>
+                        </div>
+                        <!--/ End Top Info -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Middle Header -->
+        <div class="middle-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="menubar-inner">
+                            <div class="row">
+                                <div class="col-lg-2-grande col-md-12 col-12">
+                                    <!-- Logo -->
+                                    <div class="logo">
+                                        <a href="index.html"><img src="images/logoTrackerEstatico.png" alt="logo"></a>
+                                    </div>
+                                    <!--/ End Logo -->
+                                    <div class="mobile-nav"></div>
+                                </div>
+                                <div class="col-lg-10-grande col-md-12 col-12">
+                                    <div class="menu-inner">
+                                        <nav class="mainmenu navbar-expand-lg">
+                                            <div class="navbar-collapse">
+                                                <ul class="nav navbar-nav menu">
+                                                    <li class="active"><a href="index.html">Inicio</a>
+
+                                                    </li>
+                                                    <li><a href="productos.html">Equipos y Accesorios</a>
+
+                                                    </li>
+
+                                                    <li><a href="https://www.maxtrackergps.com/rastreo/" target="_blank">LogIn</a></li>
+                                                    <li><a href="#contactoCorreo">Contacto</a></li>
+                                                </ul>
+                                            </div>
+                                        </nav>
+                                        <!--/ End Main Menu -->
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/ End Middle Header -->
+    </header>
+
+    <!--Starts Cover-->
+
+    <section class="Cover m-0 p-0">
+        <div class="container-fluid m-0 p-0 mt-0">
+            <div class="row m-0 p-0" style="background: rgb(75, 132, 172);">
+                <div class="col-md-6  coverTitle" style="background: rgb(75, 132, 172);">
+                    <div class="components">
+                        <h1 class="TitleCover ">Micro GPS</h1>
+                        <h2 class="SubtitleCover mb-3">Rastreo satelital<br>portátil</h2>
+                        </h2>
+                        <ul class="mt-3 mb-5 Coverlist">
+                            <li>
+                                <p class="mb-0">Batería interna recargable</p>
+                            </li>
+                            <li>
+                                <p class="mb-0">Fijación magnética (opcional)</p>
+                            </li>
+                            <li>
+                                <p class="mb-0">Pequeño y discreto</p>
+                            </li>
+                        </ul>
+                        <a onclick="whatsApp()"><button class="button contactbtn ">CONTACTO</button></a>
+                        <button class="button demobtn"> <a class="text-white" href="#contactoCorreo"> PIDE TU DEMO</a></button>
+                    </div>
+                </div>
+                <div class="col-md-6 m-0 p-0 sliderR">
+                    <div class="sliderTitle">
+                        <!-- Container for the image gallery -->
+                        <div class="container sliderContain">
+
+                            <div class="mySlides img-magnifier-container">
+                                <div class="numbertext"></div>
+                                <img src="./images/Micro1.png" style="width:100%" id="image" class="zoom" data-magnify-src="./images/dispositivo.png">
+                            </div>
+
+                            <div class="mySlides img-magnifier-container">
+                                <div class="numbertext"></div>
+                                <img src="./images/micro2.png" style="width:100%" id="image" class="zoom" data-magnify-src="./images/max100 cenital trans.png">
+                            </div>
+
+                            <div class="mySlides">
+                                <div class="numbertext"></div>
+                                <img src="./images/micro3.png" style="width:100%" id="image" class="zoom" data-magnify-src="./images/Max100 frontal trans.png">
+
+                            </div>
+
+                            <!-- Next and previous buttons -->
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+                            <!-- Thumbnail images -->
+                            <div class="rowThumbnail">
+                                <div class="column">
+                                    <img class="demo cursor" src="./images/Micro1.png" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+                                </div>
+                                <div class="column">
+                                    <img class="demo cursor" src="./images/micro2.png" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+                                </div>
+                                <div class="column">
+                                    <img class="demo cursor" src="./images/micro3.png" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Ends Cover-->
+
+    <!--Starts utilities-->
+
+    <section class="utilidades">
+
+        <div class="title-container">
+            <div class="row m-0 p-0 ">
+                <h1 class="Utilities-Title" id="">UTILIDADES</h1>
+                <div class="col-10">
+                    <hr class="hrOSoluciones">
+                </div>
+                <div class="col-2">
+                    <img src="./images/Engrane.png" class="icon-utiliies">
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid bg-white ">
+            <div class="row">
+                <div class="contenedor col-md-6">
+                    <img src="./images/mapa_geocerca.png" alt="" class="img-fluid imagen">
+                </div>
+                <div class="contenedor2 col-md-6 text-dark">
+                    <h2>Geocercas</h2>
+                    <div class="row">
+                        <div class="col-2 geocercas-icon">
+                            <img src="images/utilities/icon_geocercas.png">
+                        </div>
+                        <div class="col-10 geocercas-text">
+                            <li>Crea fronteras virtuales y recibe <br>alertas cuando tus vehículos cruzan <br>los límites.
+                            </li>
+                        </div>
+                    </div>
+                    <div onclick="whatsApp()" class="buttonresp"><button type="button" class="boton btn btn-primary btn-lg">MÁS
+                            INFORMACIÓN</button></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="monitoreo">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 letras text-white">
+                    <h2>Monitoreo de <br> velocidad </h2>
+                    <div class="row">
+                        <div class="col-2 speed-icon">
+                            <img src="images/utilities/icon_velocidad.png">
+                        </div>
+                        <div class="col-10 pr-5 speed-text">
+                            <li>Programa el límite de velocidad de tus vehículos para evitar accidentes y multas. Además, aumenta el rendimiento de combustible.</li>
+                        </div>
+                    </div>
+                    <div onclick="whatsApp()" class="buttonresp"><button type="button" class="boton btn btn-primary btn-lg">MÁS
+                            INFORMACIÓN</button></div>
+                </div>
+                <div class="col-md-6">
+                    <img src="./images/mapa_velocidad2.png" class="img-fluid imagen-2">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid bg-white ">
+            <div class="row " id="">
+                <div class="contenedor col-md-6">
+                    <img src="./images/mapa_ruta.png" alt="" class="img-fluid imagen-3">
+                </div>
+                <div class="contenedor3 col-md-6 text-dark">
+                    <h2>Mapa de rutas</h2>
+                    <div class="row">
+                        <div class="col-2 rutas-icon">
+                            <img src="images/utilities//icon_rutas.png">
+                        </div>
+                        <div class="col-10 rutas-text">
+                            <li>Crea rutas más eficientes y reduce <br>el consumo de combustible.</li>
+                        </div>
+                    </div>
+                    <div onclick="whatsApp()" class="buttonresp"><button type="button" class="boton btn btn-primary btn-lg">MÁS
+                            INFORMACIÓN</button></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Ends utilities-->
+
+    <!--Starts White Icons-->
+
+
+    <section id="white-icons">
+        <div class="flat"></div>
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="col-md-2">
+                    <div class="icon">
+                        <img src="./images/utilities/icon_alertas.png" class="img-icon3">
+                    </div>
+                    <p>Alertas a tu <br> celular</p>
+                </div>
+                <div class="col-md-2">
+                    <div class="icon">
+                        <img src="./images/utilities/icon_reportes.png" class="img-icon4">
+                    </div>
+                    <p>Reportes de <br> actividad</p>
+                </div>
+                <div class="col-md-2">
+                    <div class="icon">
+                        <img src="./images/utilities/icon_boton.png" class="img-icon6">
+                    </div>
+                    <p>Botón de pánico</p>
+                </div>
+                <div class="col-md-2">
+                    <div class="icon">
+                        <img src="images/utilities/icon_iman.png" class="img-icon1">
+                    </div>
+                    <p>Fijación <br> Magnética</p>
+                </div>
+                <div class="col-md-2">
+                    <div class="icon">
+                        <img src="./images/utilities/icon_bateria.png" id="img-icon2">
+                    </div>
+                    <p>Batería <br> Recargable</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!--Ends White Icons-->
+
+    <!--Starts fluidSlider-->
+
+    <section class="pt-2 pb-5 bg">
+        <div class="container" id="fluidContainer">
+            <div class="row">
+                <div class="row m-0 p-0 arrows">
+                    <h1 class="" id="fluidTitle">Otras Soluciones </h1>
+                    <div class="col-10">
+                        <hr class="hrOSoluciones">
+                    </div>
+                    <div class="col-md-2">
+                        <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                        </a>
+                        <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+                            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 carouselfirst">
+                    <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row mx-3">
+                                    <div class="col-md-3 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="images/pic_ECM.jpg">
+                                            <div class="card-body">
+                                                <h6 class="soluciones mt-1 m-0 p-2">OBD</h6>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="images/pic_satelital.jpg">
+                                            <div class="card-body">
+                                                <h6 class="soluciones mt-1 m-0 p-2">Global GPS</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="images/pic_MICRO.jpg">
+                                            <div class="card-body">
+                                                <h6 class="soluciones mt-1 m-0 p-2">Micro GPS</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="images/pic_Solar.jpg">
+                                            <div class="card-body">
+                                                <h6 class="soluciones mt-1 m-0 p-2">Solar GPS</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-3 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="images/pic_Brazalete.jpg">
+                                            <div class="card-body">
+                                                <h6 class="soluciones mt-1 m-0 p-2">Bracelet GPS</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="images/pic_DVR.jpg">
+                                            <div class="card-body">
+                                                <h6 class="soluciones mt-1 m-0 p-2">DVR GPS</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="images/pic_Fuel.jpg">
+                                            <div class="card-body">
+                                                <h6 class="soluciones mt-1 m-0 p-2">Fuel</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="images/pic_Temp.jpg">
+                                            <div class="card-body">
+                                                <h6 class="soluciones mt-1 m-0 p-2">Temp</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-3 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="images/pic_Video.jpg">
+                                            <div class="card-body">
+                                                <h6 class="soluciones mt-1 m-0 p-2">Cam</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="images/pic_WiFi.jpg">
+                                            <div class="card-body">
+                                                <h6 class="soluciones mt-1 m-0 p-2">Wifi</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Ends fluidSlider-->
+
+    <!--Starts UseCases-->
+
+    <section id="CadeUsos">
+        <div class="container">
+            <div class="row m-0 p-0">
+                <div class="text-white">
+                    <div class="row m-0 p-0 ">
+                        <h1 class="UseCases-Title" id="">Casos de Uso</h1>
+                        <div class="col-10">
+                            <hr class="hrOSoluciones">
+                        </div>
+                        <div class="col-2">
+                            <img src="./images/Manguera_Gasolina.png" class="Manguera">
+                        </div>
+                    </div>
+                </div>
+                <div class="row m-0 p-0 mt-4">
+                    <div class="col-md-6 text-white">
+                        <h2 class="UseCases-SubTitle">Gasto execesivo en <br> combustible</h2>
+                        <div class="col-8">
+                            <p>Una flota de 20 vehículos se reportó con un rendimiento de 8km por litro y velocidad promedio de 60km por hora conservaría 12.5lt por cada 100km recorridos. <br>Pero los operadores exceden la velocidad, si que ahora consumen
+                                16.25lt por cada 100km.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="img-fluid mb-4" src="images/Bitmap-4.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container  cardsCenter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 card-column">
+                        <div class="row">
+                            <div class="col-6 card-column" style="z-index: 4;">
+                                <div class="fst-card">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <p style="text-align:right; font-size:150%;">16.25</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p style="text-align:left; font-size:80%">Litros</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <p style="text-align:right; font-size:150%">-12.5</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p style="text-align:left; font-size:80%; padding-bottom:30%">Litros</p>
+                                        </div>
+                                    </div>
+                                    <div class="line-1">
+                                        <hr>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <p style="text-align:right; font-size:150%">3.75</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p style="text-align:left; font-size:80%">Consumo extra</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6" style="z-index: 3;">
+                                <div class="snd-card">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <p style="text-align:right; font-size:150%">3.75</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p style="text-align:left; font-size:80%">Consumo <br>extra</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <p style="text-align:right; font-size:150%">X $20</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p style="text-align:left; font-size:80%">Precio <br>litro</p>
+                                        </div>
+                                    </div>
+                                    <div class="line-1">
+                                        <hr>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <p style="text-align:right; font-size:150%">$75</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p style="text-align:left; font-size:80%">Diferencia <br>diaria</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-6 card-column" style="z-index: 2;">
+                                <div class="thr-card">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <p style="text-align:right; font-size:150%">$75</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p style="text-align:left; font-size:80%">Diferencia <br>diaria</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <p style="text-align:right; font-size:150%; padding-top:10%;">X 20</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p style="text-align:left; font-size:80%; padding-top:10%;">Vehículos</p>
+                                        </div>
+                                    </div>
+                                    <div class="line-1">
+                                        <hr>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <p style="text-align:start; font-size:150%;">$1,500</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p class="excp" style="text-align:start; font-size:80%; padding-bottom:25%;">al día</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6" style="z-index: 1;">
+                                <div class="frt-card">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <p style="text-align:right; font-size:150%; padding-bottom:10%">$1,500</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p class="excp" style="text-align:start; font-size:80%">al día</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <p style="text-align:right; font-size:150%;">X 24</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p style="text-align:start; font-size:80%">días</p>
+                                        </div>
+                                    </div>
+                                    <div class="line-1">
+                                        <hr>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <p style="text-align:right; font-size:150%">$36,000</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p class="excp-1" style="text-align:start; font-size:80%">al mes</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Ends cards-->
+
+                <!--Starts footer-cards-->
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 xcard">
+                            <div class="row">
+                                <div class="col-12 title-card-column">
+                                    <h1>Pérdidas por exceso de velocidad</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-12 multiply-card-column">
+                                    <div class="ftf-card">
+                                        <p>$36,000</p>
+                                        <p style="float: left;">X</p>
+                                        <p class="year">12 <strong>meses</strong></p>
+                                        <div class="line-1">
+                                            <hr>
+                                        </div>
+                                        <p class="frtyear">$432,000 <strong>anuales</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Ends UseCases-->
+    </section>
+    <!--Ends UseCases-->
+
+
+    <!-- Formulario -->
+    <section class="contact section" id="contactoCorreo">
+        <div class="container">
+            <div id="contactReverseResponsive" class="row">
+                <!-- Contact Form -->
+                <div class="col-lg-6 col-12">
+                    <div class="contact-title">
+                    </div>
+                    <form class="form rd-form rd-mailform " id="envioCorreo" method="post" data-form-output="form-output-global" data-form-type="contact" action="bat/rd-mailform.php">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="m-1 mb-2" for="contact-name">NOMBRE COMPLETO</label>
+                                    <input class="form-input" type="text" id="contact-name" name="name" data-constraints="@Required" placeholder="Nombre Completo">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="m-1 mb-2" for="contact-name">E-MAIL</label>
+                                    <input class="form-input" id="contact-email" type="email" name="email" data-constraints="@Email" placeholder="Correo Electrónico">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="m-1 mb-2" for="contact-name">TELÉFONO</label>
+                                    <input class="form-input" id="contact-phone" type="text" name="phone" data-constraints="@Numeric" placeholder="Teléfono">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="m-1 mb-2" for="contact-name">CIUDAD</label>
+                                    <input class="form-input" type="text" name="Ciudad" placeholder="Ciudad" data-constraints="@Required">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label class="m-1 mb-2" for="contact-name">MENSAJE</label>
+                                    <textarea class="form-input" name="message" rows="6" id="contact-message" data-constraints="@Required" placeholder="Mensaje"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group buttonr">
+                                    <button type="submit" class="btn cotizaYa">ENVIAR</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-6" style="text-align: -webkit-center">
+                    <p class="demo1">Pide tu <strong> DEMO </strong> </class> <br> sin costo y cotiza <br> <strong>
+                            AHORA MISMO </p></strong>
+                        <p class="demo2">Rastrea tus vehículos y mide en tiempo <br> real las condiciones más importantes
+                            <br> para tu negocio.
+                        </p>
+                        <div class="col-12"><img src="images/mapa_velocidad.png" width="50%" class="img-fluid" alt=""></div>
+                </div>
+                <!--/ End Contact Form -->
+            </div>
+        </div>
+    </section>
+    <!-- End formulario -->
+
+    <script src="./js/coverSlider.js"></script>
+    <script src="./js/whatsapp.js"></script>
+
+    <!-- Start Footer -->
+    <footer class="footer" style="bottom: -25px;">
+        <!-- Footer Top -->
+        <div class="footer-top" id="contacto">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-8 col-12">
+                        <!-- Single Footer -->
+                        <div class="single-widget footer-about">
+                            <h2>Nuestra ubicación</h2>
+                            <p>Contamos con oficinas en México</p>
+                            <ul class="list">
+                                <li><i class="fa fa-map-marker"></i>Brasilia 107 Aguascalientes, México. CP 20239.</li>
+                                <li><i class="fa fa-headphones"></i><span>Teléfonos:</span> </li>
+                                <li><a href="tel:+524499991858">+52 (449) 999.18.58</a></li>
+                                <li><a href="tel:+524492574186">+52 (449) 257.41.86</a></li>
+                                <li><i class="fa fa-envelope"></i><span>Email:</span> <a href="mailto:contacto@max4technologies.com">contacto@max4technologies.com</a>
+                                </li>
+                            </ul>
+                            <p>y en Estados Unidos.</p>
+                            <ul class="list">
+                                <li><i class="fa fa-map-marker"></i>105 N 1ST Street Unit 429, San Jose, CA P.C. 95103
+                                </li>
+                                <li><i class="fa fa-headphones"></i><span>Phone:</span> +1 408 340 1990</li>
+                                <li><i class="fa fa-envelope"></i><span>Email:</span> <a href="mailto:marketing@max4technologies.com">contact@konektisms.com</a></li>
+                            </ul>
+                            <a href="#" onclick="whatsApp()" class="btn btn-naranja click-whatsapp mt-2">Contáctanos</a>
+
+                        </div>
+                        <!--/ End Single Footer -->
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12">
+                        <!-- Single Footer -->
+                        <div class="single-widget lists">
+                            <h2>Enlaces rápidos</h2>
+                            <ul class="list">
+                                <li><a href="#loQueHacemos"><i class="fa fa-long-arrow-right"></i>Soluciones de Rastreo
+                                        Satelital y Telemetría</a></li>
+                                <li><a href="#tuFlotillaBajoControl"><i class="fa fa-long-arrow-right"></i>¡Tu flotilla
+                                        bajo Control</a></li>
+                                <li><a href="#experiencia"><i class="fa fa-long-arrow-right"></i>+15 Experiencia</a>
+                                </li>
+                                <li><a href="#queEsYComoFunciona"><i class="fa fa-long-arrow-right"></i>¿Qué es y cómo
+                                        funciona MaxTracker?</a></li>
+                                <li><a href="#casosEstudio"><i class="fa fa-long-arrow-right"></i>Casos de Estudio</a>
+                                </li>
+                                <li><a href="#colaboradores"><i class="fa fa-long-arrow-right"></i>Nuestros Clientes</a>
+                                </li>
+
+                            </ul>
+                            <div class="poweredBy">
+                                <p>Una empresa de <span class="fuerte">MAX4 TECHNOLOGIES</span></p>
+                                <a href="https://max4technologies.com"><img src="images/max4logo.png" alt=""></a>
+                            </div>
+                        </div>
+                        <!--/ End Single Footer -->
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--/ End Footer Top -->
+        <!-- Copyright -->
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-12">
+                        <p class="text">&copy; Copyright 2019 Theme.</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12">
+                        <!-- Social -->
+                        <ul class="social">
+                            <li><a href="https://www.facebook.com/MaxTracker" target=_blank><i
+                                        class="fab fa-facebook-f"></i></a></li>
+
+                            <li><a href="https://www.linkedin.com/company/max4-technologies" target="_blank"><i
+                                        class="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                        <!--/ End Social -->
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12 aviso">
+                        <a href="AvisoPrivacidad.html">Aviso de Privacidad</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/ End Copyright -->
+
+    </footer>
+    <!--/ End Footer -->
+    <div class="snackbars" id="form-output-global"></div>
+    <!-- Jquery -->
+    <!-- <script src="js/jquery.min.js"></script> -->
+    <!-- Popper JS 
+		<script src="js/popper.min.js"></script>-->
+    <!-- Bootstrap JS 
+		<script src="js/bootstrap.min.js"></script>-->
+    <!-- Modernizr JS -->
+    <!-- <script src="js/modernizr.min.js"></script> -->
+    <!-- Animate Text JS -->
+    <!-- <script src="js/animate-text.js"></script> -->
+    <!-- Fancybox js 
+		<script src="js/jquery.fancybox.min.js"></script>-->
+    <!-- Nice select JS -->
+    <!-- <script src="js/niceselect.js"></script> -->
+    <!-- Slider Carousel JS -->
+    <!--  <script src="js/owl.carousel.min.js"></script> -->
+    <!-- CubePortfolio js 
+		<script src="js/cubeportfolio.min.js"></script>-->
+    <!-- Magnific Popup js -->
+    <!--   <script src="js/magnific-popup.min.js"></script> -->
+    <!-- Jquery Easing -->
+    <!--  <script src="js/easing.js"></script> -->
+    <!-- Slick Nav JS -->
+    <!-- <script src="js/jquery.slicknav.min.js"></script> -->
+    <!-- Jquery Parallax -->
+    <!-- <script src="js/jquery.stellar.min.js"></script> -->
+    <!-- WOW JS -->
+    <!--  <script src="js/wow.min.js"></script> -->
+    <!-- ScrollUp JS -->
+    <!-- <script src="js/jquery.scrollUp.min.js"></script> -->
+    <!-- Counter JS -->
+    <!-- <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script> -->
+    <!-- Particle JS 
+		<script src="js/particles.min.js"></script>-->
+    <!-- Google Map JS -->
+    <!-- < <script src="js/gmap.min.js"></script>  -->
+    <!-- Main JS -->
+
+    <script src="js/main.js"></script>
+
+    <!--fluidSlider scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+    <!--  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.zoom').magnify();
+        });
+    </script>
+    <!--Whatsapp-->
+    <a href="https://api.whatsapp.com/send?phone=+524491112375&text=¡Quiero más información de Rastreo Satelital para Empresas!" class="whatsapp-button" style="position: fixed; width: 100px; z-index: 999; right: 40px; bottom: 20px;" target="_blank"><img style="width:100%;" src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4Ij4KPHBhdGggc3R5bGU9ImZpbGw6I0VERURFRDsiIGQ9Ik0wLDUxMmwzNS4zMS0xMjhDMTIuMzU5LDM0NC4yNzYsMCwzMDAuMTM4LDAsMjU0LjIzNEMwLDExNC43NTksMTE0Ljc1OSwwLDI1NS4xMTcsMCAgUzUxMiwxMTQuNzU5LDUxMiwyNTQuMjM0UzM5NS40NzYsNTEyLDI1NS4xMTcsNTEyYy00NC4xMzgsMC04Ni41MS0xNC4xMjQtMTI0LjQ2OS0zNS4zMUwwLDUxMnoiLz4KPHBhdGggc3R5bGU9ImZpbGw6IzU1Q0Q2QzsiIGQ9Ik0xMzcuNzEsNDMwLjc4Nmw3Ljk0NSw0LjQxNGMzMi42NjIsMjAuMzAzLDcwLjYyMSwzMi42NjIsMTEwLjM0NSwzMi42NjIgIGMxMTUuNjQxLDAsMjExLjg2Mi05Ni4yMjEsMjExLjg2Mi0yMTMuNjI4UzM3MS42NDEsNDQuMTM4LDI1NS4xMTcsNDQuMTM4UzQ0LjEzOCwxMzcuNzEsNDQuMTM4LDI1NC4yMzQgIGMwLDQwLjYwNywxMS40NzYsODAuMzMxLDMyLjY2MiwxMTMuODc2bDUuMjk3LDcuOTQ1bC0yMC4zMDMsNzQuMTUyTDEzNy43MSw0MzAuNzg2eiIvPgo8cGF0aCBzdHlsZT0iZmlsbDojRkVGRUZFOyIgZD0iTTE4Ny4xNDUsMTM1Ljk0NWwtMTYuNzcyLTAuODgzYy01LjI5NywwLTEwLjU5MywxLjc2Ni0xNC4xMjQsNS4yOTcgIGMtNy45NDUsNy4wNjItMjEuMTg2LDIwLjMwMy0yNC43MTcsMzcuOTU5Yy02LjE3OSwyNi40ODMsMy41MzEsNTguMjYyLDI2LjQ4Myw5MC4wNDFzNjcuMDksODIuOTc5LDE0NC43NzIsMTA1LjA0OCAgYzI0LjcxNyw3LjA2Miw0NC4xMzgsMi42NDgsNjAuMDI4LTcuMDYyYzEyLjM1OS03Ljk0NSwyMC4zMDMtMjAuMzAzLDIyLjk1Mi0zMy41NDVsMi42NDgtMTIuMzU5ICBjMC44ODMtMy41MzEtMC44ODMtNy45NDUtNC40MTQtOS43MWwtNTUuNjE0LTI1LjZjLTMuNTMxLTEuNzY2LTcuOTQ1LTAuODgzLTEwLjU5MywyLjY0OGwtMjIuMDY5LDI4LjI0OCAgYy0xLjc2NiwxLjc2Ni00LjQxNCwyLjY0OC03LjA2MiwxLjc2NmMtMTUuMDA3LTUuMjk3LTY1LjMyNC0yNi40ODMtOTIuNjktNzkuNDQ4Yy0wLjg4My0yLjY0OC0wLjg4My01LjI5NywwLjg4My03LjA2MiAgbDIxLjE4Ni0yMy44MzRjMS43NjYtMi42NDgsMi42NDgtNi4xNzksMS43NjYtOC44MjhsLTI1LjYtNTcuMzc5QzE5My4zMjQsMTM4LjU5MywxOTAuNjc2LDEzNS45NDUsMTg3LjE0NSwxMzUuOTQ1Ii8+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo="></a>
+
+</body>
+
+</html>

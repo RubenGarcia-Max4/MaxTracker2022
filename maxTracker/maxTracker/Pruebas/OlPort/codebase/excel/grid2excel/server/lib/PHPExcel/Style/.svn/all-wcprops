@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/var/www/MaxTrackerAdminSVN/!svn/ver/1/codebase/excel/grid2excel/server/lib/PHPExcel/Style
+END
+Border.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/var/www/MaxTrackerAdminSVN/!svn/ver/1/codebase/excel/grid2excel/server/lib/PHPExcel/Style/Border.php
+END
+Alignment.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/var/www/MaxTrackerAdminSVN/!svn/ver/1/codebase/excel/grid2excel/server/lib/PHPExcel/Style/Alignment.php
+END
+Color.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/var/www/MaxTrackerAdminSVN/!svn/ver/1/codebase/excel/grid2excel/server/lib/PHPExcel/Style/Color.php
+END
+Borders.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/var/www/MaxTrackerAdminSVN/!svn/ver/1/codebase/excel/grid2excel/server/lib/PHPExcel/Style/Borders.php
+END
+NumberFormat.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/var/www/MaxTrackerAdminSVN/!svn/ver/1/codebase/excel/grid2excel/server/lib/PHPExcel/Style/NumberFormat.php
+END
+Conditional.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/var/www/MaxTrackerAdminSVN/!svn/ver/1/codebase/excel/grid2excel/server/lib/PHPExcel/Style/Conditional.php
+END
+Fill.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/var/www/MaxTrackerAdminSVN/!svn/ver/1/codebase/excel/grid2excel/server/lib/PHPExcel/Style/Fill.php
+END
+Font.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/var/www/MaxTrackerAdminSVN/!svn/ver/1/codebase/excel/grid2excel/server/lib/PHPExcel/Style/Font.php
+END
+Protection.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/var/www/MaxTrackerAdminSVN/!svn/ver/1/codebase/excel/grid2excel/server/lib/PHPExcel/Style/Protection.php
+END

@@ -954,6 +954,32 @@ padding-left: 0;
 ===========================================
 */
 
+/*=========================================
+    Starts Characteristics Css
+===========================================
+*/
+
+#Cha-Sec-title{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 330%;
+}
+
+#Cha-Sec-title2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 350%;
+    color: rgba(0,0,0,0.1);
+    position: relative;
+    top: -30%;
+}
+
+/*=========================================
+    Ends Starts Characteristics Css
+===========================================
+*/
+
 
 /* FORM */
 

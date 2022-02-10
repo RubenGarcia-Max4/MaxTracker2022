@@ -351,6 +351,9 @@
                         <li><b>Batería</b> interna de respaldo</li>
                         <li><b>Paneles Solares</b> para funcionamiento aislado</li>
                         <li><b>Soporte</b> personalizado</li>
+                    </ul>
+                    <h3 class="sub-title-ch-ls">Plataforma web MaxTracker</h3>
+                    <ul class="ch-ls">
                         <li><b>Alarmas</b> en tiempo real a tu celular</li>
                         <li>Plataforma web <b>MaxTracker</b></li>
                         <li><b>API</b> para teléfonos móviles</li>
@@ -423,10 +426,10 @@
                         </tr>
                     </table>
                 </div>
-                <div class="col-md-6 m-0 p-0 sliderR">
+                <div class="col-md-6 m-0 p-0 sliderR" id="sliderR">
                     <div class="sliderTitle">
                         <!-- Container for the image gallery -->
-                        <div class="container sliderContain">
+                        <div class="container sliderContain" id="sliderContain-temp">
 
                             <div class="mySlides img-magnifier-container">
                                 <div class="numbertext"></div>
@@ -454,12 +457,12 @@
                             </div>
 
                             <!-- Next and previous buttons -->
-                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                            <a class="prev" id="prev-temp" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" id="next-temp" onclick="plusSlides(1)">&#10095;</a>
 
 
                             <!-- Thumbnail images -->
-                            <div class="rowThumbnail-temp">
+                            <div class="rowThumbnail" id="thumbnail-temp">
                                 <div class="column">
                                     <img class="demo cursor" src="images/MaxTEMP/galeria_sensor.webp" style="width:100%"
                                         onclick="currentSlide(1)" alt="The Woods">
@@ -491,7 +494,17 @@
         <div class="container">
             <div class="row formReverse">
                 <!-- Contact Form -->
-                <div class="col-lg-6 col-12">
+                <div class="col-lg-6" style="text-align: -webkit-center">
+                    <p class="demo1">Pide tu <strong> DEMO </strong> </class> <br> sin costo y cotiza <br> <strong>
+                            AHORA MISMO </p></strong>
+                    <p class="demo2">Rastrea tus vehículos y mides en tiempo <br> real las condiciones más importantes
+                        <br> para tu negocio.
+                    </p>
+                    <div class="col-12"><img src="images/MaxTEMP/mapa_velocidad.webp" width="50%" class="img-fluid"
+                            alt=""></div>
+                </div>
+
+                <div class="col-lg-6 col-12 form-square">
                     <div class="contact-title">
                     </div>
                     <form class="form rd-form rd-mailform " id="envioCorreo" method="post"
@@ -539,15 +552,6 @@
                             </div>
                         </div>
                     </form>
-                </div>
-                <div class="col-lg-6" style="text-align: -webkit-center">
-                    <p class="demo1">Pide tu <strong> DEMO </strong> </class> <br> sin costo y cotiza <br> <strong>
-                            AHORA MISMO </p></strong>
-                    <p class="demo2">Rastrea tus vehículos y mides en tiempo <br> real las condiciones más importantes
-                        <br> para tu negocio.
-                    </p>
-                    <div class="col-12"><img src="images/MaxTEMP/mapa_velocidad.webp" width="50%" class="img-fluid"
-                            alt=""></div>
                 </div>
                 <!--/ End Contact Form -->
             </div>

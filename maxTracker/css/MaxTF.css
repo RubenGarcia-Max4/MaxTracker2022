@@ -1145,6 +1145,10 @@ td {
 
 /* FORM */
 
+.form-title h1 strong{
+  color: #004267;
+}
+
 .form-square {
   box-shadow: 2px 0px 12px 3px rgba(0, 0, 0, 0.6);
   -webkit-box-shadow: 2px 0px 12px 3px rgba(0, 0, 0, 0.6);
@@ -1176,6 +1180,30 @@ td {
 .demo1 strong {
   color: rgb(75, 132, 172);
   font-weight: 700;
+}
+
+.cuotationbtn{
+  background: rgb(0, 67, 106);
+  height: 40px;
+  padding: 0 !important;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.cuotationbtn:hover{
+  background: rgb(0, 67, 206);
+}
+
+.asesorbtn{
+  background: rgb(233, 145, 0);
+  height: 40px;
+  padding: 0 !important;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.asesorbtn:hover{
+  background: rgb(233, 145, 100);
 }
 
 .demo2 {

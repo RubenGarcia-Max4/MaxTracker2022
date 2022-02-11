@@ -837,8 +837,7 @@
 
 .comp-cover {
   margin: auto;
-  padding-bottom: 15%;
-  padding-right: 2%;
+  max-width: 85%;
 }
 
 .img-container {
@@ -850,10 +849,14 @@
 /*Starts Responsive model for small devices*/
 @media (min-width: 360px) and (max-width: 540px) {
   .Title-icons {
-    font-size: 270% !important;
+    font-size: 200% !important;
+  }
+  .Sub-Co{
+    font-size: 130% !important;
+    padding-top: 5%;
   }
   .temperature-icon {
-    max-width: 120% !important;
+    max-width: 100% !important;
     width: 120%;
   }
   .img-icon {
@@ -874,17 +877,22 @@
   }
   .comp-cover {
     max-width: 90%;
-    padding-left: 2%;
+    padding-bottom: 5%;
+    padding-top: 5%;
   }
   .img-icon {
     width: 25% !important;
     padding-right: 12px;
   }
-
+  .paragraph-cover h3 {
+    font-size: 120%;
+  }
+  .paragraph-cover p {
+    font-size: 85%;
+  }
   .title-icon {
     width: 66.66666667% !important;
     padding-top: 120px;
-    padding-left: 12px;
   }
   .formReverse {
     flex-wrap: wrap-reverse !important;
@@ -1098,10 +1106,10 @@ td {
 
 @media (min-width: 360px) and (max-width: 540px) {
   #Cha-Sec-title {
-    font-size: 250%;
+    font-size: 150%;
   }
   #Cha-Sec-title2 {
-    font-size: 300%;
+    font-size: 200%;
   }
   #SubLine2 {
     top: -40%;
@@ -1115,16 +1123,26 @@ td {
   .ta-img img {
     width: 100%;
   }
-
+  .ch-ls-column{
+    font-size: 75%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  #SubLine2 {
+    width: 100%;
+  }
   .ta-img2 img {
     width: 100%;
   }
   .sliderR {
-    background: #004267 !important;
+    background: #fff !important;
+  }
+  #column-temp{
+    width: 24.66%;
   }
   #thumbnail-temp {
     position: unset;
-    transform: translate(40px, 60px);
+    transform: translate(30px, 55px);
   }
   #sliderContain-temp {
     width: 250px !important;
@@ -1132,6 +1150,8 @@ td {
   #prev-temp,
   #next-temp {
     top: 55%;
+    border: 1px solid #004267;
+    color: #004267;
   }
   #sliderR {
     height: 370px;

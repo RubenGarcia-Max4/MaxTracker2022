@@ -73,13 +73,15 @@ html.magnifying>body {
 
 /*Css para la sección del primer Slider */
 
-li {
-    list-style: initial;
-}
 
 .rowThumbnail {
     position: unset;
     transform: translate(70px, 390px);
+}
+
+.rowThumbnail-temp{
+    position: unset;
+    transform: translate(75px, 60px);
 }
 
 .rowThumbnailGPS {

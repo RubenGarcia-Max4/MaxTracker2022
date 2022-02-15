@@ -70,6 +70,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/MaxTF.css">
 
     <!-- Elena StyleShet -->
     <link rel="stylesheet" href="css/skins/skin-1.css">
@@ -177,6 +178,7 @@
                                     </div>
                                     <!--/ End Logo -->
                                     <div class="mobile-nav"></div>
+                                    
                                 </div>
                                 <div class="col-lg-10-grande col-md-12 col-12">
                                     <div class="menu-inner">
@@ -186,6 +188,23 @@
                                                     <li class="active"><a href="index.html">Inicio</a>
 
                                                     </li>
+
+                                                    <li>
+														<a href="#" onclick="return false;">Productos</a>
+                                                        <ul class="sub-menu">
+															<li><a href="./MaxFuel-Monitoreo-de-combustible.html">Max Fuel</a></li>
+                                                            <li><a href="./MaxTEMP-Control-de-temperatura.html">Max TEMP</a></li>
+															<li><a href="#" onclick="return false;">Rastreo Satelital</a>
+																<ul class="sub-menu-2">
+																	<li><a href="./Satelital.html">Max Satelital</a></li>
+																	<li><a href="./Max100.html">Max100</a></li>
+																	<li><a href="./MaxGPSSolar.html">MaxGPS Solar</a></li>
+																	<li><a href="./MicroGPS.html">Micro GPS</a></li>
+																</ul>
+															</li>
+                                                        </ul>
+													</li>
+
                                                     <li><a href="productos.html">Equipos y Accesorios</a>
 
                                                     </li>
@@ -513,7 +532,7 @@
                         </div>
                         <div class="service-bottom">
                             <h2>Detecta el robo de Combustible</h2>
-                            <a href="https://api.whatsapp.com/send?phone=+524491112375&text=¡Quiero más información de Rastreo Satelital para Empresas!" target="_blank" class="btn btn-warning" role="button">Más Información</a>
+                            <a href="MaxFuel-Monitoreo-de-combustible.html" target="_blank" class="btn btn-warning" role="button">Más Información</a>
                         </div>
                     </div>
                     <!--/ End Single Service -->
@@ -1218,7 +1237,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <!-- Contact Form -->
-                <div class="col-lg-8 col-12">
+                <!-- <div class="col-lg-8 col-12">
                     <div class="contact-title">
                         <h2>¡Solicita un DEMO!</h2>
                         <p>Ponte en contacto con un asesor y solicita tu prueba ahora mismo.</p>
@@ -1262,7 +1281,66 @@
                             </div>
                         </div>
                     </form>
-                </div>
+                </div> -->
+                <section class="contact section" id="contactoCorreo">
+                    <div class="container">
+                        <div class="row formReverse">
+                            <!-- Contact Form -->
+                            <div class="col-lg-6 col-12">
+                                <div class="contact-title">
+                                </div>
+                                <form class="form rd-form rd-mailform " id="envioCorreo" method="post" data-form-output="form-output-global" data-form-type="contact" action="bat/rd-mailform.php">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label class="m-1 mb-2" for="contact-name">NOMBRE COMPLETO</label>
+                                                <input class="form-input" type="text" id="contact-name" name="name" data-constraints="@Required" placeholder="Nombre Completo">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label class="m-1 mb-2" for="contact-name">E-MAIL</label>
+                                                <input class="form-input" id="contact-email" type="email" name="email" data-constraints="@Email" placeholder="Correo Electrónico">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label class="m-1 mb-2" for="contact-name">TELÉFONO</label>
+                                                <input class="form-input" id="contact-phone" type="text" name="phone" data-constraints="@Numeric" placeholder="Teléfono">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label class="m-1 mb-2" for="contact-name">CIUDAD</label>
+                                                <input class="form-input" type="text" name="Ciudad" placeholder="Ciudad" data-constraints="@Required">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="m-1 mb-2" for="contact-name">MENSAJE</label>
+                                                <textarea class="form-input" name="message" rows="6" id="contact-message" data-constraints="@Required" placeholder="Mensaje"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group buttonr">
+                                                <button type="submit" class="btn cotizaYa">ENVIAR</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-lg-6" style="text-align: -webkit-center">
+                                <p class="demo1">Pide tu <strong> DEMO </strong> </class> <br> sin costo y cotiza <br> <strong>
+                                        AHORA MISMO </p></strong>
+                                    <p class="demo2">Rastrea tus vehículos y mides en tiempo <br> real las condiciones más importantes
+                                        <br> para tu negocio.
+                                    </p>
+                                    <div class="col-12"><img src="images/MaxTEMP/mapa_velocidad.webp" width="50%" class="img-fluid" alt=""></div>
+                            </div>
+                            <!--/ End Contact Form -->
+                        </div>
+                    </div>
+                </section>
                 <!--/ End Contact Form -->
             </div>
         </div>

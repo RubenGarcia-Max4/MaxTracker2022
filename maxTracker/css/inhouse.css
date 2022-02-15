@@ -10,9 +10,6 @@
 	
     list-style: inside;
 }
-{
-	display: list-item;
-}
 
 .sub-menu{
     position: absolute;
@@ -23,12 +20,30 @@
     padding-left: 0;
 }
 
-.menu li:hover .sub-menu{
+.sub-menu-2{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-left: 0;
+}
+
+.sub-menu li:hover > .sub-menu-2{
     display: block;
 }
 
-.sub-menu li:hover{
-    background-color: #fff !important;
+.menu li:hover > .sub-menu{
+    display: block;
+}
+
+.sub-menu li ul li{
+    position: relative;
+}
+
+.sub-menu li ul{
+    right: -100%;
+    top: 0px;
 }
 
 .sub-menu li a:hover{

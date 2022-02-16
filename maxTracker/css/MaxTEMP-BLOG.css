@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,800;1,400;1,500&display=swap');
+.tittleMaxTemp {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.textMaxTemp {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+}
+
+.textMaxTempG {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+}

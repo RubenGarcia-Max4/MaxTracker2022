@@ -1,0 +1,144 @@
+.service-title{
+	color: #ffffff;
+    background-color: #00486b;
+}
+
+.single-service .icon {
+    bottom: 230px;
+}
+.vinetas{
+	
+    list-style: inside;
+}
+{
+	display: list-item;
+}
+
+.sub-menu{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-left: 0;
+}
+
+.menu li:hover .sub-menu{
+    display: block;
+}
+
+.sub-menu li:hover{
+    background-color: #fff !important;
+}
+
+.sub-menu li a:hover{
+    color: #fff !important;
+    background-color: #dd9356 !important;
+}
+
+.sub-menu li a{
+    display: block !important;
+    color: #222538 !important;
+    padding: 15px 15px 15px 20px !important;
+    text-decoration: none;
+    width: 200px;
+}
+
+.sub-menu li:hover{
+    background-color: #000 !important;
+}
+
+.single-service p, ul {
+    font-size: 15px;
+    color: #666;
+}
+.service-title p{
+    font-size: x-large;
+    padding: 15px;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 0px;	
+}
+.service-bottom a {
+	background-color: #c43438 !important;
+    border-color: #c43438 !important;
+    color: white !important;
+    font-weight: bold !important;
+}
+.adorno{
+	height: 3px;
+	background-color: #d68441;
+}
+
+.single-service h2::before{
+	background: #d68441;
+}
+.service-bottom h2{
+    font-size: 1.9rem;
+}
+.call-video .video-popup {
+    top: 100%;
+}
+
+.API::before{
+
+      content: "";
+      background: url(../images/19742.jpg);
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.15;
+}
+.api-content p, .api-content ul{
+    font-size: larger;
+}
+.single-text{
+    font-size: x-large;
+    font-weight: 700;
+    background-color: burlywood;
+    padding: 1px;
+    max-width: 467px;
+}
+.API .btn-warning {
+    background-color: #d68441;
+    border-color: #d68441;
+    color: white !important;
+    font-weight: bold !important;
+
+}
+@media (max-width: 1199px) {
+    .single-service .icon {
+    bottom: 158px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+  
+}
+
+@media (max-width: 991px) {
+  .single-service .icon {
+      bottom: 115px;
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .single-service .icon {
+    bottom: 100px;
+}
+}
+
+@media (max-width: 575px) {
+    .single-service .icon {
+        bottom: 220px;
+        width: 64px;
+        height: 64px;
+        line-height: 64px; 
+    }
+}

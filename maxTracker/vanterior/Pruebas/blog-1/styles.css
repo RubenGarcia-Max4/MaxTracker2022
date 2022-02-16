@@ -1,0 +1,415 @@
+.imagen-back{
+    background: url(images/Fondo\ Difuminado.png) no-repeat center center fixed;
+    
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -moz-background-size:cover ;
+    background-size: auto 80%;
+   margin-right: 0px !important;
+  
+}
+.vista2{
+    display: none;
+}
+.camioneta{
+    transform: translate(-200px, 0px);
+    margin-top: 50px;   
+}
+.geo{
+    
+    text-align: end;
+    text-transform: none;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.background{
+    background-color: none; 
+    width: 2000px;
+  transform: translate(-250px, 0px);
+    
+}
+.all{
+    background-color: #f2f2f2; 
+}
+.inicial{
+    background-color: white;
+    box-shadow: 1px 1px 3px #666; 
+    width: 1000px;
+    position:relative;
+    bottom: 80px ;
+    margin-left: 470px; 
+    
+}
+.geo2{
+    font-size: 14px ;
+    transform: translate(50px, -100px) !important;
+    font-family: 'Montserrat', sans-serif !important;
+    text-transform: none;
+    
+}
+.inicial2{
+    padding-left: 50px;
+    padding-right: 50px; 
+    padding-top: 50px;  
+}
+.avatar
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 10rem;
+    box-shadow: rgb(255, 255, 255);
+    position: absolute;
+    top: 20px; left: 65px;
+}
+.gral{
+    background-color: none;
+    width: 1150px;
+    height: 380px;
+    padding: 10px;
+    text-align: center;
+    position: static;
+    
+}
+.gral .contenido{
+    background-color: none;
+    color: black !important;
+    width: 560px;
+    height: 400px;
+    font-size: 40px;
+    padding-top: 50px;
+   margin-left: 0px;
+   font-family: 'Montserrat', sans-serif;
+   transform: translate(-350px, 0px);
+   
+}
+.imgytext{
+    background-color: white; 
+    box-shadow: 1px 1px 3px #666;
+    width: 230px;
+    height: 270px;
+    position: absolute;
+    left: 200px;
+    border-radius: 0.5rem;
+    margin-top: 50px;
+    
+}
+.letras{
+    position: absolute;
+    top: 120px; left: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.letras2{
+    position: absolute;
+    top: 120px; left: 30px;
+    
+}
+.comillas{
+    font-family: 'Poppins', sans-serif;
+    color: #333333;
+    font-size: 30px;
+}
+
+.boton11{
+    background:#00436a; 
+    color: white; 
+    width: auto;  
+    font-size: 13px;   
+    border-radius: 0px;
+    border: #00436a;
+    font-family: 'Montserrat', sans-serif;
+    
+    
+}
+
+
+@media (max-width: 950px) {
+    
+    .form-rev {
+        flex-wrap: wrap-reverse;
+    }
+    .vista1{
+        display: none;
+    } 
+.letras2, .avatar{
+    margin-top: 200px !important;
+    text-align: center;
+}
+
+
+.vista2{
+    display: inherit;
+}
+.gral {
+    background-color: rgb(255, 255, 255);
+    width: 0px;
+height: 454px;
+    text-align: center;
+}
+.imgytext{
+    height: 80px;
+    background-color: white;
+    top: -12px; left: 20px;
+    box-shadow: 1px 1px 3px white; 
+    margin-left: 35px;
+}
+.gral .contenido{
+    width: 300px;
+    height: 50px;
+    margin-top: 500px;
+    text-align: center;
+}
+.inicial{
+    width: 350px;
+    padding-bottom: 100px;
+    margin-left: 6px;
+    position:relative;
+    margin: auto;
+    text-align: left;
+    
+}
+
+.inicial2 {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+.backgroundd{ 
+    padding-bottom: none;
+    width: auto 100%;  
+    background-color: #f2f2f2; 
+    margin-left: 0px;
+    text-align: center;
+}
+.comillas{
+    font-family: 'Poppins', sans-serif;
+    color: #333333;
+    font-size: 20px;
+}
+.cont1, .cont2, .cont3 {
+    margin-left: 24px !important;     
+}
+.cont4 {
+    margin-left: 24px !important; 
+    margin-top: 20px !important;    
+}
+
+.flechas{  
+width: 100px;
+margin-left: 0px !important;
+padding-right: 0px;
+}
+.imagen-back{
+background: url(images/Fondo\ Difuminado.png) no-repeat center center fixed;
+width: auto 100%;
+height: 300px;
+      -webkit-background-size:cover;
+      -moz-background-size:cover;
+      -moz-background-size:cover ;
+      background-size: auto 80%;
+}
+.comp{    
+text-align: start !important;
+}
+.slide{
+padding-top: 130px;
+}
+.mapa1{
+    width: 400px;
+    height: 200px;
+    margin-left: 0px !important;
+}
+.boton {
+    transform: translate(0px, -50px) !important;
+    margin-top: 0px !important;
+}
+.camionetaa{
+    transform: translate(-2px, 46px);
+}
+}
+
+.section{
+    padding-top: 0px;
+    padding-bottom: 90px;
+}
+
+.boton {
+    background:#00436a; 
+    color: white; 
+    width: auto;  
+    font-size: 13px;   
+    border-radius: 0px;
+    border: #00436a;
+    font-family: 'Montserrat', sans-serif;
+    transform: translate(200px, 35px);
+    
+}
+.boton1 {
+    background:#00436a; 
+    color: white; 
+    width: auto;  
+    font-size: 13px;  
+    font-family: 'Poppins', sans-serif;
+    border-radius: 0px;
+    border: #00436a;
+}
+.boton2{
+    background:#f2f2f2; 
+    color: #6a6a6a; 
+    width: auto;  
+    font-size: 13px;  
+    font-family: 'Poppins', sans-serif;
+    border-radius: 0px;
+    border: #6a6a6a;
+}
+
+ .clase{
+    top: 200px; left: 800px;
+    color: rgb(0, 132, 255);
+}
+.bodis{
+    background-color: white;
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+}
+
+.texto-final{
+    
+    font-size: 25px !important;
+    font-family: 'Poppins', sans-serif;
+    color: #4b4b4b;
+    margin-top: 34px !important;
+    margin-bottom: -22px !important;
+    text-transform: none;
+    margin-left: 10px;
+
+    
+}
+.texto-final1{
+    text-align: justify;  
+    font-family: 'Poppins', sans-serif; 
+    color: #4b4b4b;
+    font-size: 20px;
+}
+
+.etiquetas{    
+    height: 130px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.c1, .c2{
+    padding-right: 20px;
+    
+}
+.etiquetas .text{
+    top: 200px; left: 800px;
+    font-family: 'Montserrat', sans-serif;
+}
+.boton-final{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.cont1{
+    background-color: #f2f2f2; 
+    box-shadow: 1px 1px 3px #666;
+    width: 300px;
+    margin-right: 20px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+    border-radius: 0.5rem;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+}
+.cont2{
+    background-color: #f2f2f2;  
+    box-shadow: 1px 1px 3px #666;
+    width: 300px;
+    margin-bottom: 20px;
+    border-radius: 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+    
+}
+.cont3{
+    background-color: #f2f2f2; 
+    box-shadow: 1px 1px 3px #666;
+    width: 300px;
+    margin-right: 20px;
+    margin-left: 120px;
+    border-radius: 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+}
+.cont4{
+    background-color: #f2f2f2; 
+    box-shadow: 1px 1px 3px #666;
+    width: 300px;
+    border-radius: 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+}
+
+ .flechas{
+     width: 100px;
+     margin-left: 310px;
+ }
+/* FORM */
+
+#contactoCorreo input {
+    background: white !important;
+}
+
+#contactoCorreo textarea {
+    background: white !important;
+}
+
+.demo1 {
+    
+    padding-left: 0px !important;
+    font-size: 40px;
+    text-align: left;
+    line-height: 115%;
+    font-weight: 600;
+    letter-spacing: -4px;
+}
+
+.demo1 strong {
+    color: rgb(75, 132, 172);
+    font-weight: 700;
+}
+
+.demo2 {
+    padding-left: 0px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 120%;
+}
+
+.cotizaYa {
+    background: #D68441 !important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    color: white !important;
+}
+
+.buttonr {
+    text-align: left;
+}
+
+#envioCorreo label {
+    font-size: 12px;
+}
+.map{
+    margin-left: 100px;
+    width: 200px;
+    height: 150px;
+}
+
+/* END FORM */

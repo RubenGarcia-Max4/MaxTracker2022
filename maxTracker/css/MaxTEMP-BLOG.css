@@ -15,3 +15,39 @@
     font-size: 21px;
     font-weight: bold;
 }
+
+.texMaxTempQ {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.banner_latest_advertisement {
+    color: white;
+    background: #00486B;
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.banner_latest_advertisement p {
+    font-size: 19px;
+}
+
+.p_elevador {
+    background: #D68441;
+    color: #fff;
+    font-size: 16px !important;
+    margin-bottom: 0;
+    padding: 5px 5px;
+    text-align: center;
+    border: 2px solid #004365;
+    font-weight: bold;
+    width: 35% !important;
+    border-radius: 3px;
+}
+
+.p_elevador:hover {
+    color: #fff !important;
+}

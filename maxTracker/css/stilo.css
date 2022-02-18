@@ -388,14 +388,6 @@ p {
     width: 20%;
 }
 
-.container-fluid {
-    background-color: rgb(75, 132, 172);
-    background-size: 100% 550px;
-    width: auto;
-    /* height: 500px; */
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
 
 .container-fluid-2 {
     background-color: rgb(75, 132, 172);

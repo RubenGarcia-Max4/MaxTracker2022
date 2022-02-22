@@ -715,6 +715,7 @@
   background-size: cover;
   width: auto;
   height: 100%;
+  margin-top: 7% !important;
 }
 /*Starts CSS for the icon and the title of the cover*/
 .temperature-icon {
@@ -733,7 +734,7 @@
 
 .img-icon,
 .title-icon {
-  padding-top: 20px;
+  padding-top: 40px;
   width: auto !important;
 }
 

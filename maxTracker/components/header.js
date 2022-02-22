@@ -10,6 +10,12 @@ class Header extends HTMLElement {
       background-color: cornflowerblue;
     }
 
+    #Main-NavBar{
+      box-shadow: 0px 7px 25px 0px rgba(0,0,0,0.75);
+      -webkit-box-shadow: 0px 7px 25px 0px rgba(0,0,0,0.75);
+      -moz-box-shadow: 0px 7px 25px 0px rgba(0,0,0,0.75);
+    }
+
     .header-buttons {
       margin-left: 28%;
     }
@@ -46,10 +52,17 @@ class Header extends HTMLElement {
       .header-buttons {
         margin-left: 0;
       }
-      
+      .header-a2, .header-a{
+        padding-left: 2% !important;
+      }
+      .header-a2:hover, .header-a {
+        background-color: rgba(0,0,0,.3) !important;
+        border-radius: 0;
+        border-bottom-style: none;
+      }
     }
   </style>
-  <nav class="navbar navbar-expand-lg navbar-light bg-white" id="Main-NavBar">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white" id="Main-NavBar">
     <div class="container-fluid" style="padding-bottom: 1%;">
       <a class="navbar-brand" href="#" style="padding-left: 5%;">
         <img src="images/logoTrackerEstatico.png" alt="" style="max-width: 70%;">
@@ -61,7 +74,7 @@ class Header extends HTMLElement {
       <div class="collapse navbar-collapse header-buttons" id="navbarNavDropdown">
         <ul class="navbar-nav header-navbar">
           <li class="nav-item">
-            <a class="nav-link active header-a" aria-current="page" href="../index.html">Inicio</a>
+            <a class="nav-link active header-a" aria-current="page" href="./index.html">Inicio</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle header-a2" href="#" id="navbarDropdownMenuLink" role="button"

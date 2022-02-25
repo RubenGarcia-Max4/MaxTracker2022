@@ -16,6 +16,18 @@
     margin-right: 0px !important;
 }
 
+.imagen-backk-fuel {
+    background-image: url("../images/MaxFUEL/Img_Feat_MaxFuel.png");
+    background-image: no-repeat !important;
+    background-image: fixed !important;
+    background-image: center !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 500px;
+}
+
 .rutas {
     background: url(../images/MaxBlog/Fondo\ Img\ Feattt.png) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -81,10 +93,30 @@
     text-transform: none;
 }
 
+.geo3Fuel {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif !important;
+    text-transform: none;
+    text-align: end !important;
+}
+
+.geo21Fuel {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif !important;
+    text-transform: none;
+    text-align: end !important;
+}
+
 .inicial2 {
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 50px;
+}
+
+.inicial2Fuel {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 70px;
 }
 
 .social {
@@ -108,6 +140,10 @@
     padding: 10px;
     text-align: center;
     position: static;
+}
+
+.contenido button {
+    margin-left: 10% !important;
 }
 
 .gral .contenido {

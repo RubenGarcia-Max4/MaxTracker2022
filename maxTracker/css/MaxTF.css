@@ -556,6 +556,7 @@
   color: #fff;
   border-radius: 30px;
   border-style: solid !important;
+  padding-top: 6px !important;
 }
 
 .F-contactbtn {
@@ -568,6 +569,8 @@
   color: #fff;
   border-radius: 30px;
   border-style: solid !important;
+  padding-top:5px !important;
+  line-height: 15px !important;
 }
 
 .F-contactbtn:hover,

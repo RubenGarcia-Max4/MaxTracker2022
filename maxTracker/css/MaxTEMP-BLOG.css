@@ -63,3 +63,31 @@
 .p_elevador:hover {
     color: #fff !important;
 }
+
+.inicial2FuelBlog {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 70px;
+    padding-bottom: 106%;
+}
+
+.articulosS .col-md-6 img {
+    position: relative;
+}
+
+.articulosS .col-md-6 button {
+    position: absolute;
+    border-color: black;
+    opacity: 0.9;
+    font-size: 15px;
+    text-align: center;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    margin-top: -2.5%;
+    margin-left: 17%;
+    color: black;
+    font-weight: 500;
+    background-color: white;
+    border-radius: 0%;
+}

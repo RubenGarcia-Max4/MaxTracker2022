@@ -11,9 +11,9 @@ class Header extends HTMLElement {
     }
 
     #Main-NavBar{
-      box-shadow: 0px 7px 25px 0px rgba(0,0,0,0.75);
-      -webkit-box-shadow: 0px 7px 25px 0px rgba(0,0,0,0.75);
-      -moz-box-shadow: 0px 7px 25px 0px rgba(0,0,0,0.75);
+      box-shadow: 2px -1px 52px -6px rgba(0,0,0,0.75);
+      -webkit-box-shadow: 2px -1px 52px -6px rgba(0,0,0,0.75);
+      -moz-box-shadow: 2px -1px 52px -6px rgba(0,0,0,0.75);
     }
 
     .header-buttons {
@@ -63,7 +63,7 @@ class Header extends HTMLElement {
     }
   </style>
   <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white" id="Main-NavBar">
-    <div class="container-fluid" style="padding-bottom: 1%;">
+    <div class="container-fluid" style="padding-top: 1%;">
       <a class="navbar-brand" href="#" style="padding-left: 5%;">
         <img src="images/logoTrackerEstatico.png" alt="" style="max-width: 70%;">
       </a>

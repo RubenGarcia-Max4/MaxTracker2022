@@ -908,6 +908,7 @@
   }
   .demo1 {
     padding-left: 0 !important;
+    margin-top: 50px;
   }
   .demo2 {
     padding-left: 0 !important;
@@ -1136,6 +1137,7 @@ td {
     font-size: 75%;
     padding-left: 10%;
     padding-right: 10%;
+    margin-top: -200px;
   }
   #SubLine2 {
     width: 100%;

@@ -91,3 +91,12 @@
     background-color: white;
     border-radius: 0%;
 }
+
+@media (max-width: 950px) {
+    .textMaxFuelG {
+        text-align: left;
+    }
+    .textMaxFuel {
+        text-align: left !important;
+    }
+}

@@ -356,6 +356,11 @@ p {
 
 /*Utilities CSS*/
 
+#monitoreo{
+    background: rgb(75, 132, 172);
+    padding-bottom: 5%;
+}
+
 #idrow {
     border-bottom: 5px solid #C1831F;
 }

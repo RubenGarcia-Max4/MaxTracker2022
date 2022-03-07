@@ -304,8 +304,7 @@
                             </li>
                         </ul>
                         <a
-                            href="https://api.whatsapp.com/send?phone=+524491112375&text=¡Quiero más información de MaxGPS Solar!"><button
-                                class="button contactbtn">CONTACTO</button></a>
+                            onclick="whatsApp()"><button class="button contactbtn">CONTACTO</button></a>
                         <button class="button demobtn"> <a class="text-white" href="#contactoCorreo"> PIDE TU
                                 DEMO</a></button>
                     </div>
@@ -923,7 +922,20 @@
     <!-- End formulario -->
 
     <script src="./js/coverSlider.js"></script>
-    <script src="./js/whatsapp.js"></script>
+    <script> function whatsApp() {
+        var phone = "";
+        var seller = Math.floor(Math.random() * 2);
+        var text = encodeURIComponent('¡Quiero más información de Más Mensajes!');
+        switch (seller) {
+            case 0:
+                phone = '4495166832';
+                break;
+            case 1:
+                phone = '4495504832';
+                break;
+        }
+        window.open('https://api.whatsapp.com/send?phone=' + phone + '&text=' + text);
+    }</script>
 
     <!-- Start Footer -->
     <footer class="footer" style="bottom: -25px;">
@@ -1085,14 +1097,17 @@
     <script>
         function whatsApp() {
             var phone = "";
-            var seller = Math.floor(Math.random() * 2);
-            var text = encodeURIComponent('¡Vi su página de internet de Más Mensajes *Integración API* y quisiera Cotizar!');
+            var seller = Math.floor(Math.random() * 3);
+            var text = encodeURIComponent('¡Vi su página de internet de MaxTracker *MaxGPS Solar* y quisiera Cotizar!');
             switch (seller) {
                 case 0:
                     phone = '5214499991858';
                     break;
                 case 1:
                     phone = '5214492574186';
+                    break;
+                case 2:
+                    phone = '5214494647773';
                     break;
             }
             window.open('https://api.whatsapp.com/send?phone=' + phone + '&text=' + text);

@@ -2,5 +2,5 @@
     "useSmtp": false,
     "host": "smtp.gmail.com",
     "port": 587,
-    "recipientEmail": "manuel@max4technologies.com, barrera@max4technologies.com, rodrigo.magana@max4technologies.com"
+    "recipientEmail": "manuel@max4technologies.com, jbarrera@max4technologies.com, rodrigo.magana@max4technologies.com"
 }

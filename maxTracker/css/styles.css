@@ -1,19 +1,25 @@
 .imagen-back {
     background: url(../images/MaxBlog/Sección\ Img\ Feat.png) no-repeat center center fixed;
+    background-image: no-repeat !important;
+    background-image: fixed !important;
+    background-image: center !important;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    -moz-background-size: cover;
-    background-size: auto 80%;
-    margin-right: 0px !important;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 500px;
 }
 
 .imagen-backk {
-    background: url(../images/MaxFUEL/Img_Feat_MaxFuel.png) no-repeat center center fixed;
+    background: url(../images/MaxBlog/Fondo\ Difuminado.png) no-repeat center center fixed;
+    background-image: no-repeat !important;
+    background-image: fixed !important;
+    background-image: center !important;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    -moz-background-size: cover;
-    background-size: auto 80%;
-    margin-right: 0px !important;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 500px;
 }
 
 .imagen-backk-fuel {
@@ -30,11 +36,14 @@
 
 .rutas {
     background: url(../images/MaxBlog/Fondo\ Img\ Feattt.png) no-repeat center center fixed;
+    background-image: no-repeat !important;
+    background-image: fixed !important;
+    background-image: center !important;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    -moz-background-size: cover;
-    background-size: auto 80%;
-    margin-right: 0px !important;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 500px;
 }
 
 .vista2 {
